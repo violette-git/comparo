@@ -168,7 +168,7 @@ p {
 .header {
   position: sticky;
   top: 0;
-  background-color: var(--color-background);
+  background-color: #000000;
   box-shadow: var(--shadow-sm);
   z-index: 100;
   padding: var(--spacing-md) 0;
@@ -332,7 +332,7 @@ p {
 /* Website Gallery */
 .website-gallery {
   padding: var(--spacing-xl) 0;
-  background-color: var(--color-background-alt);
+  background-color: #2d3748
 }
 
 .filter-tabs {
@@ -391,6 +391,7 @@ p {
 .card-title {
   margin-bottom: var(--spacing-sm);
   font-size: 1.1rem;
+  color: var(--dark-color-border);
 }
 
 .card-meta {
