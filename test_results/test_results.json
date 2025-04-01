@@ -1,0 +1,60 @@
+{
+  "html_structure": {
+    "responsive_meta_tag": true,
+    "responsive_css": true,
+    "device_specific_styles": {
+      "mobile": false,
+      "tablet": true,
+      "laptop": false,
+      "desktop": false
+    },
+    "form_validation": true,
+    "crud_operations": true,
+    "screenshot_comparison": true,
+    "accessibility_features": false
+  },
+  "javascript_functionality": {
+    "lazy_loading": false,
+    "error_handling": true,
+    "form_validation": true,
+    "screenshot_generation": true,
+    "device_switching": true,
+    "crud_operations": {
+      "create": true,
+      "read": true,
+      "update": true,
+      "delete": true
+    },
+    "performance_optimizations": {
+      "caching": false,
+      "async_operations": true
+    }
+  },
+  "performance_optimizations": {
+    "lazy_loading": false,
+    "css_optimization": {
+      "minified": false,
+      "efficient_selectors": false
+    },
+    "js_optimization": {
+      "minified": false,
+      "event_delegation": true,
+      "efficient_dom": true
+    },
+    "caching": false
+  },
+  "accessibility": {
+    "keyboard_navigation": false,
+    "aria_attributes": false,
+    "semantic_html": true,
+    "color_contrast": "Unknown",
+    "focus_indicators": true
+  },
+  "responsive_breakpoints": [
+    640,
+    768,
+    1024,
+    1280
+  ],
+  "device_mockups": "./test_results/device_mockups.png"
+}
